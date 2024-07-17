@@ -4,8 +4,26 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
+.navbar-brand img {
+            height:50px; 
+            width: 100px;
+            margin-right:10px; 
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .navbar-brand span {
+            font-weight: bold;  
+             font-style: italic;
+            font-family: 'Montserrat', sans-serif;
+        }
+
 .hero-section {
-    background-color: #000;
+    background-color: #10487f;
     height: 600px;
     display: flex;
     align-items: center;
@@ -147,6 +165,123 @@ a {
 a:hover {
     color: #e67e00;
 }
+
+
+/*skills*/
+
+.intro-section {
+    background-color: #14412c;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.skill-body {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h5 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.skill-desc {
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #6c757d;
+}
+
+.progress {
+    height: 25px;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    font-size: 14px;
+    line-height: 25px;
+    color: white;
+}
+/*Portfolio*/
+.portfolio-header {
+    background-color: #10487f;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.header-h1 {
+    margin-bottom: 10px;
+}
+
+.header-subtitle {
+    margin-bottom: 20px;
+}
+
+.header-ui .btn {
+    margin: 0 5px;
+}
+
+.portfolio-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.experience-item, .education-item {
+    margin-bottom: 20px;
+}
+
+.experience-title, .education-title {
+    margin-bottom: 5px;
+    color: #007bff;
+}
+
+.experience-duration, .education-duration {
+    margin-bottom: 10px;
+}
+
+.skills-list, .experience-list, .certifications-list, .awards-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li,
+ .experience-list li, 
+ .certifications-list li, 
+ .awards-list li {
+    background: url('https://img.icons8.com/material-outlined/16/007bff/checked-2.png') no-repeat left center;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+
+/*footer*/
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
 
 @media (max-width: 767px) {
      .hero-section 
