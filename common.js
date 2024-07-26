@@ -1,4 +1,5 @@
 // common.js
+
 function loadHTML(elementId, filePath) {
     fetch(filePath)
         .then(response => {
