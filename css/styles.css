@@ -71,8 +71,12 @@ body, html {
     max-height: 600px;
     border-radius: 50%;
     object-fit: contain;
-}
-
+    border-radius: 90%;
+    -webkit-mask-image: radial-gradient(circle, rgba(255, 255, 255, 1) 60%, rgba(255, 255, 255, 0) 100%);
+    mask-image: radial-gradient(circle, rgba(255, 255, 255, 1) 60%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+    filter: blur(0.3px);
+} 
 .highlight {
     color: #ff8c00;
 }
@@ -94,7 +98,7 @@ body, html {
 
 /*PostSection start*/
 .post-section {
-    padding: 100px 0; /* Adjust padding as needed */
+    padding: 100px 0; 
     background-color: #f9f9f9;
 }
 .custom-container {
@@ -114,14 +118,14 @@ body, html {
 }
 
 .post img {
-    width: 100%; /* Ensure image takes up full width of its container */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 600px; /* Limit maximum width */
-    max-height: 350px; /* Limit maximum height */
-    display: block; /* Remove extra space below inline images */
+    width: 100%; 
+    height: auto; 
+    max-width: 600px; 
+    max-height: 350px; 
+    display: block; 
     margin-bottom: 10px;
     border-radius: 10px;
-
+    object-fit: contain;
 }
 
 .post h3 {
@@ -454,7 +458,7 @@ footer a:hover {
         max-height: 450px;
         max-width: 80%;
     }
-
+}
     @media (max-width: 435px) {
     .main-section {
         height: 850px; 
