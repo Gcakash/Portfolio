@@ -3,7 +3,6 @@ body, html {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
         .navbar {
             background: linear-gradient(120deg, #151946, #00796b);
             padding: 15px 20px;
@@ -258,7 +257,7 @@ a:hover {
 }
 /*Portfolio*/
 .portfolio-header {
-    background-color: #10487f;
+    background-color: #151946;
     color: white;
     padding: 20px;
     border-radius: 5px;
